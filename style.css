@@ -1,0 +1,54 @@
+#title{
+    text-align: center;
+    color: crimson;
+    margin: 65px 0px 50px 0px;
+}
+#form-in{
+    text-align: center;
+}
+#char-num{
+    outline-color: red !important;
+}
+#btn{
+    background-color: white;
+    border:1px solid black;
+    font-size: 18px;
+    font-weight:100;
+    padding: 6px;
+    border: 1px solid black;
+    outline: red !important;
+}
+#grub{
+    text-align:center;
+    margin: 15px;
+}
+input{
+    height: 30px;
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+}
+label{
+    font-size: large;
+    font-weight: 500;
+    margin: 10px;
+    text-align: center;
+
+}
+#created{
+    text-align: center;
+}
+#btn-div{
+    text-align: center;
+
+}
+#match{
+    width: 370px;
+    height: 38px;
+    background-color: red;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    word-spacing: 100px;
+    border:rgb(104, 103, 103) solid 2px;
+}

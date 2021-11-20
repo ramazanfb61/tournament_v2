@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnuva Eşleştirme</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 id="title">Turnuva Eşleştirme</h1>
+
+    <div id="form-in">
+        <label for="char">Katılımcı Sayısı :</label>
+        <input id="char-num" type="number" name="num">
+        <button id="btn">Oluştur</button>
+    </div>
+
+    <div id="grub" hidden>
+        <label id="text" for="" class="text">Katılımcı Gir : </label>
+        <input id="char-name" type="text" name="name" class="character-name">
+    </div>
+
+    <div id="created"></div>
+
+    <div id="btn-div">
+        <button id="match">Eşle</button>
+    </div>    
+    
+    <script src="script.js"></script>
+</body>
+</html> 
