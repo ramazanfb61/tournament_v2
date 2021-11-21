@@ -35,7 +35,7 @@ function create_element(){
 function run(){
     for(let i = 0; i<character_num.value;i++){
         create_element()
-        console.log("working : " + i);
+        console.log("create elements : working ");
     }
     
 }
@@ -50,8 +50,42 @@ $("#char-num").keyup(function(event) {
 // enter a basıldığında burdaki kod çalışır. btn tikladiginda calisacak kodlar
 $("#btn").click(function(){
     var character_num = document.getElementById("char-num")
-    alert("Data is : " + character_num.value);
+    //alert("Data is : " + character_num.value);
     $("#form-in").hide()
     //$("#grub").show()
     run()
+    $("#btn-match").show()
 });
+
+// -------------------esleme islemi-----------------------------------------
+
+// girilen kisileri depoladıgın yer
+var data = []
+
+// kisileri depola
+
+$("#btn-match").click(function(){
+    console.log("btn-match is working");
+    var persons = document.getElementsByClassName("character-name")
+    
+    function depola(){
+        for(let i = 1;i<=character_num.value;i++){
+            console.log(persons[i].value);
+            console.log(i);
+            data.push(persons[i].value)
+        } 
+        console.log(data);
+
+        
+    }
+    function gizle(){
+        // inputlari gizle
+        created.style.display = "none"
+        // esle butonu gizle
+        $("#btn-div").hide()
+    }
+    
+    depola()
+    gizle()
+})
+
