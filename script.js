@@ -1,14 +1,9 @@
-
-
 // elementlere ulaş
 var div = document.getElementById("grub")
 var label = document.getElementById("text")
 var input = document.getElementById("char-name")
 var character_num = document.getElementById("char-num")
 var created = document.getElementById("created") 
-// create elements
-
-
 
 // element olustur
 function create_element(){
@@ -74,7 +69,7 @@ $("#btn-match").click(function(){
             console.log(i);
             data.push(persons[i].value)
         } 
-        console.log(data);
+        console.log("data is : " + data);
 
         
     }
@@ -87,5 +82,7 @@ $("#btn-match").click(function(){
     
     depola()
     gizle()
+    console.log(data);
+    console.log(data);
 })
 

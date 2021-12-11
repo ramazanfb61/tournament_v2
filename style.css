@@ -5,6 +5,10 @@
     margin: 65px 0px 50px 0px;
     font-size: 40px;
 }
+hr{
+    height: 2px;
+    background-color:black;
+}
 #form-in{
     text-align: center;
 }
@@ -53,4 +57,7 @@ label{
     font-weight: 800;
     word-spacing: 100px;
     border:rgb(104, 103, 103) solid 2px;
+}
+#form-out{
+    text-align: center;
 }
