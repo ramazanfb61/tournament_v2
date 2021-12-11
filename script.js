@@ -79,10 +79,17 @@ $("#btn-match").click(function(){
         // esle butonu gizle
         $("#btn-div").hide()
     }
+    function create_h3(){
+        var h3 = document.createElement("h3")
+        h3.id="write"
+        document.body.appendChild(h3)
+        h3.innerText = data
+    }
     
     depola()
     gizle()
-    console.log(data);
+    create_h3()
+    console.log(data[1]);
     console.log(data);
 })
 
